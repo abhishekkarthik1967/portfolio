@@ -16,7 +16,7 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        fetch("https://abhishekkarthik1967.github.io/portfolio/profile.json")
           .then(result => {
             if (result.ok) {
               return result.json();
