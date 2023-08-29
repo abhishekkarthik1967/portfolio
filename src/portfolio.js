@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "AK",
+  username: "Abhishek",
   title: "Hi all, I'm Abhishek Karthik Manikandan",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Angular / JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
@@ -36,12 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/abhishek1967",
   linkedin: "https://www.linkedin.com/in//abhishek-karthik-manikandan-401273a2/",
   gmail: "karthik95abi@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/abhishek.karthik.90/",
-  // medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/22453256/abhishek-karthik",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -171,25 +167,45 @@ const workExperiences = {
       company: "Royal Bank Of Canada",
       companylogo: "https://pbs.twimg.com/profile_images/1634225386585194501/yb-5bbs9_400x400.jpg",
       date: "Sep 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Launched RBC translate, Cerbi and Temboo social sentiment tracker by gaining expertise in React, Angular, Python, OCP4, .Net, NodeJs, Web security, fixing production even after failures with the Team lead and grew office revenue by 200% in the first nine months (representing 20% of company revenue). Led redesign of mobile app and website.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Analyzed data from 10000 monthly active users and used outputs to guide  product strategies; increased average app engagement time by 2x and 30% decrease in drop off rate.",
+        "Drove redevelopment of internal tracking system in use by 100 employees, resulting in 20+ new features, reduction of 20% in save/load time and 15% operation time. Overhauled the obsolete legacy source code of two production applications, resulting in increased usability and reduced run time performance by 50%."
+      ]
+    },
+    {
+      role: "Software Engineer (Part-time)",
+      company: "Ayogo Healthcare",
+      companylogo: "https://media.licdn.com/dms/image/C560BAQFuIyGtJRm79g/company-logo_200_200/0/1649091867457?e=1701302400&v=beta&t=rBj8vqzKUd1tmomgnMQbS1Rm3ZoBzayVg5SB9-YunN0",
+      date: "May 2022 – Aug 2022",
+      desc: "As an early engineer on the development team of the startup, developed the SaaS product along with the team as it grew to 25 employees. Led redesign of mobile app and website by learning Vue.js, Jest, GraphQL, ECS, SQS, RDS, S3, DynamoDB, Cloudwatch, Lambda, Kinesis, NodeJS, EBS, EC2, Cloudformation and Serverless framework.",
+      descBullets: [
+        "Spearheaded a major pricing restructure by  introducing cloud infrastructure and redesigning the architecture to microservices which increased average sale 35% and margin 12%.",
+        "Identified steps to reduce return rates by 10% resulting in an eventual $75k cost savings.",
+        "Also helped in developing an analytics module with Databricks that facilitated in extracting meaningful insights from user state data using Spark SQL and AWS logs."
       ]
     },
     {
       role: "Development Engineer 2",
-      company: "Comcast India Engineering Center I LLP",
+      company: "Comcast India ",
       companylogo: "https://pbs.twimg.com/profile_images/1604949348999217153/hdZmq635_400x400.jpg",
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2021 – May 2018",
+      desc: "Liaised with high level executives, improved an ecommerce platform website with the help of UI UX designers to sell their telecom products and plans to end users in the USA market.",
+      descBullets: [
+        "Analyzed data from 25000 monthly active users using ELK Stack and  AppDynamics to provide meaningful insights on product refinement.",
+        "Identified steps to introduce microservices and micro-frontends architecture using Angular, NodeJS, Nginx, Swagger docs, Jenkins, Docker, MongoDB."
+      ]
     },
     {
       role: "Programmer Analyst",
       company: "Sanmina",
       companylogo: "https://pbs.twimg.com/profile_images/996500516145434629/hDxT-bol_400x400.jpg",
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2017 – Sep 2020",
+      desc: "Automated smooth onboarding of employees by developing a marketplace for new joiners leveraging Angular, NodeJS, Java MVC and GCP - App Engine, CloudRun, Cloud SQL, Cloud build, Pub/Sub . Contributed towards migration of applications from Angular 1.x to Angular 8.",
+      descBullets: [
+        "Created reusable libraries and components and published to a private npm registry. Improved the scalability and performance, productivity  by 50% converting monolith architecture to microservices using Angular and NodeJS.",
+        "Used Pentaho, Camunda BPM and Oracle, PostgreSQL for application workflows for internal applications."
+      ]
     }
   ]
 };
