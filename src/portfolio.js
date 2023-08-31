@@ -208,7 +208,7 @@ const workExperiences = {
       role: "Development Engineer 2",
       company: "Comcast India ",
       companylogo: "https://pbs.twimg.com/profile_images/1604949348999217153/hdZmq635_400x400.jpg",
-      date: "Jan 2021 – May 2018",
+      date: "Jan 2021 – Jun 2021",
       desc: "Liaised with high level executives, improved an ecommerce platform website with the help of UI UX designers to sell their telecom products and plans to end users in the USA market.",
       descBullets: [
         "Analyzed data from 25000 monthly active users using ELK Stack and  AppDynamics to provide meaningful insights on product refinement.",
